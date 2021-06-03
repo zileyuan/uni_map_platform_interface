@@ -1,0 +1,19 @@
+name: uni_map_platform_interface
+description: Uni Map Platform Interface.
+version: 0.5.1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core_location_fluttify:
+    git:
+        url: git://github.com/zileyuan/core_location_fluttify.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.2
